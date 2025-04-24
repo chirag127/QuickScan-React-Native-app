@@ -1,0 +1,7 @@
+<svg width="2048" height="2048" viewBox="0 0 2048 2048" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <rect width="2048" height="2048" rx="256" fill="white"/>
+    <rect x="341.3333333333333" y="341.3333333333333" width="1365.3333333333333" height="1365.3333333333333" rx="170.66666666666666" stroke="#3B82F6" stroke-width="170.66666666666666" />
+    <rect x="682.6666666666666" y="682.6666666666666" width="682.6666666666666" height="682.6666666666666" rx="85.33333333333333" stroke="#3B82F6" stroke-width="85.33333333333333" stroke-dasharray="170.66666666666666" />
+    <circle cx="1024" cy="1024" r="204.8" fill="#3B82F6" />
+    <text x="1024" y="1706.6666666666667" font-family="Arial" font-size="170.66666666666666" fill="#3B82F6" text-anchor="middle" font-weight="bold">QR Code Scanner Pro</text>
+  </svg>
