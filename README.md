@@ -61,6 +61,12 @@ A powerful, feature-rich QR code scanner application built with React Native and
     npm start
     ```
 
+    If you encounter TypeScript errors like `Unknown file extension ".ts"`, try using:
+
+    ```bash
+    npx expo start --clear
+    ```
+
 5. Follow the instructions in the terminal to open the app on your device or simulator.
 
 ## Building for Production
@@ -112,6 +118,64 @@ frontend/
 ## License
 
 This project is licensed under the MIT License - see the LICENSE file for details.
+
+## Troubleshooting
+
+### TypeScript Errors
+
+If you encounter TypeScript errors like `Unknown file extension ".ts"`, try the following:
+
+1. **Use Node.js v18 (recommended)**:
+
+    This project works best with Node.js v18. If you have nvm installed:
+
+    ```bash
+    nvm use 18
+    npm install --legacy-peer-deps
+    npm start
+    ```
+
+2. **Use Node.js v18 without installing it**:
+
+    ```bash
+    npm run start:node18
+    ```
+
+    Or on Windows, you can use the batch file:
+
+    ```bash
+    start-with-node18.bat
+    ```
+
+3. **Alternative start method**:
+
+    ```bash
+    node --no-warnings expo-entry.js
+    ```
+
+4. **Clear Metro bundler cache**:
+
+    ```bash
+    npx expo start --clear
+    ```
+
+5. **Use development build**:
+    ```bash
+    npx expo run:android
+    # or
+    npx expo run:ios
+    ```
+
+### Babel Configuration Issues
+
+If you encounter Babel-related errors:
+
+1. Make sure your `.babelrc` file is properly configured
+2. Try removing the `node_modules` folder and reinstalling dependencies:
+    ```bash
+    rm -rf node_modules
+    npm install --legacy-peer-deps
+    ```
 
 ## Acknowledgements
 
