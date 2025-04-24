@@ -1,0 +1,2 @@
+# QuickScan React Native app
+ 
